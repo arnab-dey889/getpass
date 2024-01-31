@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Get Pass Form</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container1">
+	<center><p class="dip">Durgapur Institute Of Polytechnic</p></center></div>
+	<div class="container3">
+	<center><p class="add">NH - 2, Rajbandh, Durgapur, West Bengal - 713212</p></center>
+	<center><p class="tel">Tel: - +91 - 7797660066 </p></center>
+	<center><p class="em">Email: - dip@rahul.ac.in</p></center><br><br>
+</div>
+<form action="pass.php" name="getpass" id="getpass" method="post" enctype="multipart/form-data">
+		<div class="container">
+	<label for="nme" class="nme">Name</label>
+	<input type="text" name="nme" id="nme" class="inp1" placeholder="Enter Your Name" required/> <br><br>
+
+	<label for="cnum" class="cnum">Contact Number</label>
+	<input type="text" name="cnumb" id="cnumb" class="inp3" minlength="1" maxlength="10" placeholder="Enter Contact Number" required/> <br><br>
+
+	<label for="em1" class="em1">Email</label>
+	<input type="email" name="email" id="email" class="inp4" placeholder="Enter Your Email" /> <br><br>
+
+	<label for="Dept" class="Dept">Department</label>
+	<select id="dept" name="dept" placeholder="Enter Your Department" class="inp2" required>
+		<option value="none" selected="none" disabled="disabled">None</option>
+		<option value="Computer Science & Technology (CST)">Computer Science & Technology</option>
+		<option value="Electrical Engineering (EE)">Electrical Engineering</option>
+		<option value="Mechanical Enigineering (ME)">Mechanical Enginerring</option>
+		<option value="Civil Engineering (CE)">Civil Engineering</option>
+	</select> <br><br>
+
+	<label for="roll" class="roll">Roll Number </label>
+	<input type="text" name="rnumber" id="rnumber" class="inp5" placeholder="Enter Roll Number" required/> <br><br>
+
+	<script type="text/javascript">
+		function confirmation(){
+			if(!confirm("Do You Want To Submit This Form")){
+				return false;
+			}
+		}
+	</script>
+	<button type="submit" class="btn" name="submit" id="submit" onclick="return confirmation();">Submit</button>
+
+	<button type="reset" class="btn" name="submit" id="submit">Reset</button>
+</div>
+</form>
+</body>
+</html>

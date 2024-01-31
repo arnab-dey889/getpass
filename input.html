@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Input</title>
+	<style type="text/css">
+		body{
+			background-color: lightblue;
+		}
+		.container{
+			border-color: red;
+			border-style: solid;
+			border-width: 3px;
+			border-radius: 10px;
+		}
+		h1{
+			color: red;
+			font-size: 40px;
+			font-family: arial;
+		}
+		.n1{
+			color: blue;
+			font-family: arial;
+			font-size: 25px;
+		}
+		.inp1{
+			padding: 20px 20px 20px 20px;
+			border-radius: 8px;
+			border-color: red;
+			font-size: 18px;
+		}
+		.n2{
+			color: blue;
+			font-family: arial;
+			font-size: 25px;
+		}
+		.inp2{
+			padding: 20px 20px 20px 20px;
+			border-radius: 8px;
+			border-color: red;
+			font-size: 18px;
+		}
+		.sub{
+			padding: 10px 10px 10px 10px;
+			background-color: yellow;
+			border-radius: 8px;
+			border-color: red;
+			font-size: 20px;
+			font-family: sans-serif;
+			font-weight: bold;
+			margin-bottom: 30px;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	<form action="print_getpass.php" method="post">
+		<center>
+			<div class="container">
+				<h1><u> Enter The Details </u></h1>
+				<p class="n1">Roll Number: </p><input type="text" name="rn" id="rn" class="inp1" placeholder="Enter Roll Number"><br>
+				<p class="n2">Department: </p>
+				<select id="dep" name="dep" placeholder="Enter Your Department" class="inp2" required>
+				<option value="none" selected="none" disabled="disabled">None</option>
+				<option value="Computer Science & Technology (CST)">Computer Science & Technology</option>
+				<option value="Electrical Engineering (EE)">Electrical Engineering</option>
+				<option value="Mechanical Enigineering (ME)">Mechanical Enginerring</option>
+				<option value="Civil Engineering (CE)">Civil Engineering</option>
+			</select> <br><br>
+				<button type="submit" name="submit" id="submit" class="sub">Submit </button>
+			</div>
+		</center>
+	</form>
+</body>
+</html>

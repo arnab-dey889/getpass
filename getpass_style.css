@@ -1,0 +1,15 @@
+body{
+	height: 100vh;
+	background-color: #ffdbac;
+	background-image: url(rahul.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 50%;
+	z-index: 99;
+}
+.fg{
+	font-size: 50px;
+	font-family: sans-serif;
+	font-weight: bolder;
+	color: red;
+}

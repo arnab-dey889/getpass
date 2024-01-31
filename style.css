@@ -1,0 +1,184 @@
+body{
+	height: 100vh;
+	background-color: lightblue;
+	background-image: url(logo.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 20%;
+	z-index: 99;
+}
+.container1{
+	margin-bottom: -1px;
+}
+.container3{
+	margin-top: -5px;
+}
+.dip{
+	font-size: 50px;
+	font-family: sans-serif;
+	word-spacing: 5px;
+	font-weight: bold;
+	color: darkblue;
+}
+.add{
+	font-size: 20px;
+	color: red;
+	font-weight: bold;
+	font-family: arial;
+}
+.tel{
+	font-size: 20px;
+	color: red;
+	font-weight: bold;
+	font-family: arial;
+}
+.em{
+	font-size: 20px;
+	color: red;
+	font-weight: bold;
+	font-family: arial;
+}
+.container{
+	padding-left: 10%;
+}
+.nme{
+	font-weight: bolder;
+	font-family: arial;
+	font-size: 30px;
+}
+.inp1{
+	color: black;
+	font-family: sans-serif;
+	font-size: 20px;
+	margin-left: 150px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 60px;
+	align-items: center;
+	border-radius: 8px;
+	border-style: solid;
+	border-color: blue;
+	border-width: 3px;
+	background-color: #DAD8C9;
+	cursor: pointer;
+}
+.inp1:hover{
+	border-color: darkblue;
+}
+.cnum{
+	font-weight: bolder;
+	font-family: arial;
+	font-size: 30px;
+}
+.inp3{
+	color: black;
+	font-family: sans-serif;
+	font-size: 20px;
+	margin-left: 1px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 60px;
+	align-items: center;
+	border-radius: 8px;
+	border-style: solid;
+	border-color: blue;
+	border-width: 3px;
+	background-color: #DAD8C9;
+	cursor: pointer;
+}
+.inp3:hover{
+	border-color: darkblue;
+}
+.em1{
+	font-weight: bolder;
+	font-family: arial;
+	font-size: 30px;
+}
+.inp4{
+	color: black;
+	font-family: sans-serif;
+	font-size: 20px;
+	margin-left: 155px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 60px;
+	align-items: center;
+	border-radius: 8px;
+	border-style: solid;
+	border-color: blue;
+	border-width: 3px;
+	background-color: #DAD8C9;
+	cursor: pointer;
+}
+.inp4:hover{
+	border-color: darkblue;
+}
+.Dept{
+	font-weight: bolder;
+	font-family: arial;
+	font-size: 30px;
+}
+.inp2{
+	color: black;
+	font-family: sans-serif;
+	font-size: 20px;
+	margin-left: 70px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 60px;
+	align-items: center;
+	border-radius: 8px;
+	border-style: solid;
+	border-color: blue;
+	border-width: 3px;
+	background-color: #DAD8C9;
+	cursor: pointer;
+}
+.inp2:hover{
+	border-color: darkblue;
+}
+.roll{
+	font-weight: bolder;
+	font-family: arial;
+	font-size: 30px;
+}
+.inp5{
+	color: black;
+	font-family: sans-serif;
+	font-size: 20px;
+	margin-left: 57px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 60px;
+	align-items: center;
+	border-radius: 8px;
+	border-style: solid;
+	border-color: blue;
+	border-width: 3px;
+	background-color: #DAD8C9;
+	cursor: pointer;
+}
+.inp5{
+	border-color: darkblue;
+}
+.btn{
+	margin-left: 50px;
+	padding: 20px 20px 20px 20px;
+	border-radius: 8px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: darkblue;
+	background-color: blue;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+.btn:hover{
+	background-color: darkblue;
+	border-color: blue;
+}
